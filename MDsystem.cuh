@@ -1,6 +1,14 @@
 #ifndef MDSYSTEMCUH
 #define MDSYSTEMCUH
 
+#include <vector>
+#include <stdexcept>
+#include <H5Cpp.h>
+
+#include "GPUutils.cuh"
+#include "math_types.cuh"
+#include "io.cuh"
+
 // Singleton base template class
 
 template<typename T>
